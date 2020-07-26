@@ -37,7 +37,7 @@ node_add_prob = 0.2
 node_delete_prob = 0.2
 
 num_hidden = 1
-num_inputs = 3
+num_inputs = 5
 num_outputs = 4
 
 response_init_mean = 1.0
@@ -65,5 +65,5 @@ max_stagnation = 20
 species_elitism = 2
 
 [DefaultReproduction]
-elitism = 10
-survival_threshold = 0.5
+elitism = 2
+survival_threshold = 0.2

@@ -188,6 +188,7 @@ def main(genomes, config):
 	birds = []
 
 	for _, g in genomes:
+		print(_)
 		net = neat.nn.FeedForwardNetwork.create(g, config)
 		nets.append(net)
 		birds.append(Bird(230, 350))
